@@ -1,0 +1,8 @@
+[Unit]
+Description=Update Fail2Ban ignoreip list from DDNS
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/fail2ban-ddns-whitelist.sh
