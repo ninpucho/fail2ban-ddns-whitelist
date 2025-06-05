@@ -1,0 +1,1 @@
+# fail2ban-ddns-whitelist
